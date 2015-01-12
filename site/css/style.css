@@ -2,6 +2,7 @@ body {
     background-color: #f0f0f0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 .topNavigation {
     width: calc(100%-20px);
@@ -26,8 +27,8 @@ body {
     content: Découvrir;
 }
 .content {
-    width: 320px;
-    height: 568px;
+    width: 100%;
+    height: calc(100%-38px);
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -41,10 +42,12 @@ nav {
     -moz-box-sizing: border-box;
     /* Firefox, other Gecko */
     box-sizing: border-box;
+    width: 100%;
+    height: 44px;
     background-color: #FF8360;
     overflow: hidden;
-    position: relative;
-    bottom: -473px;
+    position: absolute;
+    bottom: 0;
 }
 nav ul li {
     list-style: none;
@@ -60,17 +63,19 @@ nav ul li a {
 #decouvrir {
     background-image: url(../img/explore.svg);
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 20px;
     background-position: 23px 0px;
     padding-top: 30px;
     margin-right: 90px;
+    margin-top: 0px;
 }
 #list {
     background-image: url(../img/list.svg);
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 20px;
     background-position: 23px 0px;
     padding-top: 30px;
+    margin-top: 0px;
 }
 /* PAGE BIERES */
 
