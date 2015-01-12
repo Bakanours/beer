@@ -125,8 +125,7 @@ p {
     position: absolute;
     z-index: 3000;
     left: 10px;
-    top:320px;
-   
+    top: 320px;
 }
 .boutons button {
     position: relative;
@@ -147,15 +146,18 @@ p {
     background-color: #A1C181;
     left: -5px;
 }
-.bieres img{height: 268px;
-overflow: hidden;}
+.bieres img {
+    height: 268px;
+    overflow: hidden;
+}
 .bieres p {
     width: 300px;
 }
-#orval {display: none;}
+#orval {
+    display: none;
+}
 #leffe-b {
     left: -320px;
-   
 }
 /*cachée*/
 
@@ -180,9 +182,8 @@ overflow: hidden;}
     background-color: #EBEBEB;
 }
 #liste {
-    
     position: absolute;
-    left:-320px;
+    left: -320px;
 }
 .list-bu {
     font-family: 'roboto-l';
@@ -249,10 +250,8 @@ overflow: hidden;}
 #carte small {
     color: #B15235;
 }
-
-.translate:{transform: translateX(320px);
+.translate {
+    transform: translateX(320px);
     -webkit-transform: translateX(320px);
-    -moz-transform: translateX(320px);
-    -o-transform: translateX(320px);
-    -ms-transform: translateX(320px);
-transition: all .3s;}
+    transition: all .3s;
+}

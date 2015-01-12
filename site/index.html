@@ -23,11 +23,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Link to js & jsPlugin -->
     <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/hammer.js"></script>
+<!--    <script src="js/hammer.js"></script>-->
 </head>
 <!-- différentes pages de bieres -> div et translate au moment du bouton pour passer a la prochaine  -->
 
-<!-- Orval -->
+<!-- Orval --<!-->
 
 <body>
 
@@ -215,7 +215,7 @@
             <ul>
                 <li><a href="index.html" id="decouvrir">Découvrir</a>
                 </li>
-                <li><a href="#liste" id="list">Mes listes</a>
+                <li><a id="list">Mes listes</a>
                 </li>
 
 
@@ -223,9 +223,25 @@
 
         </nav>
     </div>
-    
-    <script>
+
+  
+         <script type="text/javascript">
         
+     
+        
+        $( "a#list" ).click(function() {
+            $("#liste").addClass('translate');
+            $("#boutons");
+        
+        });
+    
+        /*
+    $("#list").click(function(){
+            alert('ok');
+            //$("#liste").addClass("translate");
+        
+        });
+       */
 
         
         
