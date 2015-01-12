@@ -110,7 +110,7 @@ p {
 }
 .bieres img {
     width: 320px;
-    height: background-size: cover;
+    height: 268px;
 }
 .bieres h1 {
     color: white;
@@ -152,24 +152,25 @@ overflow: hidden;}
 .bieres p {
     width: 300px;
 }
-
+#orval {display: none;}
 #leffe-b {
-    left: -9999px;
+    left: -320px;
+   
 }
 /*cachée*/
 
 #kasteel-r {
-    left: -9999px;
+    left: -320px;
 }
 /*cachée*/
 
 #karmeliet {
-    left: -9999px;
+    left: -320px;
 }
 /*cachée*/
 
 #grim {
-    left: -9999px;
+    left: -320px;
 }
 /*cachée*/
 
@@ -179,9 +180,9 @@ overflow: hidden;}
     background-color: #EBEBEB;
 }
 #liste {
-    left: ;
+    
     position: absolute;
-    left: -9999px;
+    left:-320px;
 }
 .list-bu {
     font-family: 'roboto-l';
@@ -243,8 +244,15 @@ overflow: hidden;}
 }
 #carte {
     position: absolute;
-    left: -9999px;
+    left: -320px;
 }
 #carte small {
     color: #B15235;
 }
+
+.translate:{transform: translateX(320px);
+    -webkit-transform: translateX(320px);
+    -moz-transform: translateX(320px);
+    -o-transform: translateX(320px);
+    -ms-transform: translateX(320px);
+transition: all .3s;}
