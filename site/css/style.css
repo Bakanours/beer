@@ -167,23 +167,23 @@ p {
 }
 #orval {display: none;}
 #leffe-b {
-    left: -100%;
+    left: -320px;
    
 }
 /*cachée*/
 
 #kasteel-r {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
 #karmeliet {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
 #grim {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
@@ -195,7 +195,7 @@ p {
 #liste {
     
     position: absolute;
-    left: -100%;
+    left: -320px;
 }
 .list-bu {
     font-family: 'roboto-l';
@@ -257,7 +257,7 @@ p {
 }
 #carte {
     position: absolute;
-    left: -100%;
+    left: -320px;
 }
 #carte small {
     color: #B15235;
