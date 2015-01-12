@@ -180,26 +180,30 @@ p {
 }
 #leffe-b {
 <<<<<<< HEAD
+<<<<<<< HEAD
     left: -320px;
 =======
     left: -100%;
+=======
+    left: -320px;
+>>>>>>> FETCH_HEAD
    
 >>>>>>> FETCH_HEAD
 }
 /*cachée*/
 
 #kasteel-r {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
 #karmeliet {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
 #grim {
-    left: -100%;
+    left: -320px;
 }
 /*cachée*/
 
@@ -211,9 +215,13 @@ p {
 #liste {
     position: absolute;
 <<<<<<< HEAD
+<<<<<<< HEAD
     left: -320px;
 =======
     left: -100%;
+>>>>>>> FETCH_HEAD
+=======
+    left: -320px;
 >>>>>>> FETCH_HEAD
 }
 .list-bu {
@@ -276,7 +284,7 @@ p {
 }
 #carte {
     position: absolute;
-    left: -100%;
+    left: -320px;
 }
 #carte small {
     color: #B15235;
