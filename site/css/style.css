@@ -35,7 +35,7 @@ nav ul li a {
     font-size: 12px;
 }
 #decouvrir {
-    background-image: url(../img/explore.png);
+    background-image: url(../img/explore.svg);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 23px 0px;
@@ -43,13 +43,25 @@ nav ul li a {
     margin-right: 90px;
 }
 #list {
-    background-image: url(../img/list.png);
+    background-image: url(../img/list.svg);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 23px 0px;
     padding-top: 30px;
 }
 /* PAGE BIERES */
+.map-icon {background-image: url(../img/map.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+text-decoration: none;
+color: #FCCA46;
+position: absolute;
+padding-top: 30px;
+background-position: 23px 0px;
+font-family: 'roboto-l';
+font-size: 12px;
+right: 10px;
+bottom: 210px;}
 
 p {
     position: relative;
@@ -133,9 +145,8 @@ p {
 .list-bieres li:nth-child(odd) {
     background-color: #EBEBEB;
 }
-#list nav {
-    bottom: -300px;
-}
+#liste{left: -9999px;
+position: absolute;}
 .list-bu {
     font-family: 'roboto-l';
     text-align: center;
@@ -183,3 +194,6 @@ p {
 color: white;
 text-decoration: none;
 font-size: 22px;}
+
+
+
