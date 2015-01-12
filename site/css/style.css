@@ -3,23 +3,18 @@ body {
     width: 100%;
     height: 100%;
 }
-
 .topNavigation {
     width: calc(100%-20px);
     height: 38px;
-
     background: #F7754D;
     padding-top: 18px;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
-
 #retourArrow {
-    height: 15px; 
-
+    height: 15px;
     margin-top: 10px;
     position: absolute;
 }
-
 .titrePage {
     font-size: 15px;
     color: #FFFFFF;
@@ -30,7 +25,6 @@ body {
     left: -11px;
     content: Découvrir;
 }
-
 .content {
     width: 320px;
     height: 568px;
@@ -101,7 +95,7 @@ p {
     color: #FF8360;
     font-size: 29px;
     font-family: 'roboto-l';
-    margin-top: 25px;
+    margin-top: 50px;
     left: 10px;
 }
 .descr {
@@ -128,8 +122,13 @@ p {
 .boutons {
     width: 285px;
     margin: 0 auto;
+    position: absolute;
+    z-index: 3000;
+    left: 10px;
+    top:320px;
+   
 }
-.bieres button {
+.boutons button {
     position: relative;
     top: 20px;
     height: 28px;
@@ -139,18 +138,21 @@ p {
     font-family: 'roboto-l';
     font-size: 13px;
 }
-.bieres button:nth-child(1) {
+.boutons button:nth-child(1) {
     background-color: #FF8360;
     border-radius: 15px 0 0 15px;
 }
-.bieres button:nth-child(2) {
+.boutons button:nth-child(2) {
     border-radius: 0 15px 15px 0;
     background-color: #A1C181;
     left: -5px;
 }
+.bieres img{height: 268px;
+overflow: hidden;}
 .bieres p {
     width: 300px;
 }
+
 #leffe-b {
     left: -9999px;
 }
@@ -194,19 +196,21 @@ p {
     height: 50px;
     float: left;
     border-radius: 2px;
+    border: 1px solid #FF8360;
+    color: #FF8360;
 }
-.list-bu li:nth-child(1) {
+.list-bu li:active {
     color: white;
     background-color: #FF8360;
-    border: 1px solid #FF8360;
-}
-.list-bu li:nth-child(2) {
-    color: #FF8360;
     border: 1px solid #FF8360;
 }
 .list-bu li a {
     position: relative;
     top: 25%;
+}
+.list-bieres li:active {
+    background-color: #FF8360;
+    color: white;
 }
 .list-bieres {
     list-style: none;
@@ -214,7 +218,9 @@ p {
     color: #6D6D6D;
     font-family: 'roboto-r';
 }
-.list-bieres li {padding: 5px;}
+.list-bieres li {
+    padding: 5px;
+}
 #liste header {
     background-color: #FF8360;
     padding: 0;
