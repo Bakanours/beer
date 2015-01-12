@@ -1,0 +1,185 @@
+body {
+    background-color: #f0f0f0;
+    width: 320px;
+}
+.content {
+    width: 320px;
+    height: 568px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+/* NAVIGATION */
+
+nav {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    background-color: #FF8360;
+    overflow: hidden;
+    position: relative;
+    bottom: -473px;
+}
+nav ul li {
+    list-style: none;
+    padding-top: 20px;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#decouvrir {
+    background-image: url(../img/explore.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 23px 0px;
+    padding-top: 30px;
+    margin-right: 90px;
+}
+#list {
+    background-image: url(../img/list.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 23px 0px;
+    padding-top: 30px;
+}
+/* PAGE BIERES */
+
+p {
+    position: relative;
+}
+.txt-orange {
+    color: #FF8360;
+    font-size: 29px;
+    font-family: 'roboto-l';
+    margin-top: 25px;
+    left: 10px;
+}
+.descr {
+    font-family: 'roboto-l';
+    margin-top: -20px;
+    left: 10px;
+    font-size: 14px;
+}
+.bieres {
+    position: absolute;
+    height: 473px;
+}
+.bieres img {
+    width: 320px;
+    height: background-size: cover;
+}
+.bieres h1 {
+    color: white;
+    font-family: 'roboto-r';
+    bottom: 185px;
+    left: 10px;
+    position: absolute;
+}
+.boutons {
+    width: 285px;
+    margin: 0 auto;
+}
+.bieres button {
+    position: relative;
+    top: 20px;
+    height: 28px;
+    width: 140px;
+    border-style: none;
+    color: white;
+    font-family: 'roboto-l';
+    font-size: 13px;
+}
+.bieres button:nth-child(1) {
+    background-color: #FF8360;
+    border-radius: 15px 0 0 15px;
+}
+.bieres button:nth-child(2) {
+    border-radius: 0 15px 15px 0;
+    background-color: #A1C181;
+    left: -5px;
+}
+.bieres p {
+    width: 300px;
+}
+#leffe-b {
+    left: -9999px;
+}
+/*cachée*/
+
+#kasteel-r {
+    left: -9999px;
+}
+/*cachée*/
+
+#karmeliet {
+    left: -9999px;
+}
+/*cachée*/
+
+#grim {
+    left: -9999px;
+}
+/*cachée*/
+
+/*page des listes*/
+
+.list-bieres li:nth-child(odd) {
+    background-color: #EBEBEB;
+}
+#list nav {
+    bottom: -300px;
+}
+.list-bu {
+    font-family: 'roboto-l';
+    text-align: center;
+    border-radius: 2px;
+    width: 280px;
+    list-style: none;
+    overflow: hidden;
+}
+.list-bu li {
+    width: 130px;
+    height: 50px;
+    float: left;
+    border-radius: 2px;
+}
+.list-bu li:nth-child(1) {
+    color: white;
+    background-color: #FF8360;
+    border: 1px solid #FF8360;
+}
+.list-bu li:nth-child(2) {
+    color: #FF8360;
+    border: 1px solid #FF8360;
+}
+.list-bu li a {
+    position: relative;
+    top: 25%;
+}
+.list-bieres {
+    list-style: none;
+    position: relative;
+    color: #6D6D6D;
+    font-family: 'roboto-r';
+}
+#liste header {
+    background-color: #FF8360;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'roboto-l';
+    text-align: center;
+    padding: 2px;
+}
+
+#liste header a {float: left;
+color: white;
+text-decoration: none;
+font-size: 22px;}

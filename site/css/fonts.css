@@ -1,0 +1,42 @@
+
+
+
+@font-face {
+    font-family: 'nexa-s';
+    src: url('../font/nexarustscriptl-0-webfont.eot');
+    src: url('../font/nexarustscriptl-0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/nexarustscriptl-0-webfont.woff2') format('woff2'),
+         url('../font/nexarustscriptl-0-webfont.woff') format('woff'),
+         url('../font/nexarustscriptl-0-webfont.ttf') format('truetype'),
+         url('../font/nexarustscriptl-0-webfont.svg#nexa_rust_script_l0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-r';
+    src: url('../font/roboto/regular/Roboto-Regular-webfont.eot');
+    src: url('../font/roboto/regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto/regular/Roboto-Regular-webfont.woff') format('woff'),
+         url('../font/roboto/regular/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../font/roboto/regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-l';
+    src: url('../font/roboto/light/Roboto-Light-webfont.eot');
+    src: url('../font/roboto/light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto/light/Roboto-Light-webfont.woff') format('woff'),
+         url('../font/roboto/light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
