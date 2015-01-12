@@ -79,19 +79,21 @@ nav ul li a {
     padding-top: 30px;
 }
 /* PAGE BIERES */
-.map-icon {background-image: url(../img/map.svg);
+
+.map-icon {
+    background-image: url(../img/map.svg);
     background-size: 20px;
     background-repeat: no-repeat;
-text-decoration: none;
-color: #FCCA46;
-position: absolute;
-padding-top: 30px;
-background-position: 23px 0px;
-font-family: 'roboto-l';
-font-size: 12px;
-right: 10px;
-bottom: 210px;}
-
+    text-decoration: none;
+    color: #FCCA46;
+    position: absolute;
+    padding-top: 30px;
+    background-position: 23px 0px;
+    font-family: 'roboto-l';
+    font-size: 12px;
+    right: 10px;
+    bottom: 210px;
+}
 p {
     position: relative;
 }
@@ -174,8 +176,11 @@ p {
 .list-bieres li:nth-child(odd) {
     background-color: #EBEBEB;
 }
-#liste{left: -9999px;
-position: absolute;}
+#liste {
+    left: ;
+    position: absolute;
+    left: -9999px;
+}
 .list-bu {
     font-family: 'roboto-l';
     text-align: center;
@@ -209,6 +214,7 @@ position: absolute;}
     color: #6D6D6D;
     font-family: 'roboto-r';
 }
+.list-bieres li {padding: 5px;}
 #liste header {
     background-color: #FF8360;
     padding: 0;
@@ -218,14 +224,21 @@ position: absolute;}
     text-align: center;
     padding: 2px;
 }
-
-#liste header a {float: left;
-color: white;
-text-decoration: none;
-font-size: 22px;}
-
+#liste header a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
 /*maps*/
-#map img {width: 320px;}
-#map {position: absolute;
-left: -9999px;}
-#map small {color:#B15235;}
+
+#carte img {
+    width: 320px;
+}
+#carte {
+    position: absolute;
+    left: -9999px;
+}
+#carte small {
+    color: #B15235;
+}
