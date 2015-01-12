@@ -114,7 +114,7 @@ p {
     height: 473px;
 }
 .bieres img {
-    width: 320px;
+    width: 100%;
     height: 268px;
 }
 .bieres h1 {
@@ -124,15 +124,17 @@ p {
     left: 10px;
     position: absolute;
 }
+
 .boutons {
     width: 285px;
     margin: 0 auto;
     position: absolute;
     z-index: 3000;
     left: 10px;
-    top:320px;
+    top: 320px;
    
 }
+
 .boutons button {
     position: relative;
     top: 20px;
@@ -143,39 +145,45 @@ p {
     font-family: 'roboto-l';
     font-size: 13px;
 }
+
 .boutons button:nth-child(1) {
     background-color: #FF8360;
     border-radius: 15px 0 0 15px;
 }
+
 .boutons button:nth-child(2) {
     border-radius: 0 15px 15px 0;
     background-color: #A1C181;
     left: -5px;
 }
-.bieres img{height: 268px;
-overflow: hidden;}
+
+.bieres img{
+    height: 268px;
+    overflow: hidden;
+}
+
 .bieres p {
     width: 300px;
 }
 #orval {display: none;}
 #leffe-b {
-    left: -320px;
+    left: -100%;
    
 }
 /*cachée*/
 
 #kasteel-r {
-    left: -320px;
+    left: -100%;
 }
 /*cachée*/
 
 #karmeliet {
-    left: -320px;
+    left: -100%;
 }
 /*cachée*/
 
 #grim {
-    left: -320px;
+    left: -100%;
 }
 /*cachée*/
 
@@ -187,7 +195,7 @@ overflow: hidden;}
 #liste {
     
     position: absolute;
-    left:-320px;
+    left: -100%;
 }
 .list-bu {
     font-family: 'roboto-l';
@@ -245,19 +253,17 @@ overflow: hidden;}
 /*maps*/
 
 #carte img {
-    width: 320px;
+    width: 100%;
 }
 #carte {
     position: absolute;
-    left: -320px;
+    left: -100%;
 }
 #carte small {
     color: #B15235;
 }
 
-.translate:{transform: translateX(320px);
+.translate{
     -webkit-transform: translateX(320px);
-    -moz-transform: translateX(320px);
-    -o-transform: translateX(320px);
-    -ms-transform: translateX(320px);
-transition: all .3s;}
+    transition: all .3s;
+}
